@@ -1,4 +1,12 @@
 import { useState } from "react";
+import { haimuoik } from "../public/haimuoik.jpg";
+import { haitramk } from "../public/haitramk.jpeg";
+import { mottramk } from "../public/mottramk.jpg";
+import { muoik } from "../public/muoik.jpeg";
+import { namk } from "../public/namk.jpeg";
+import { nammuoik } from "../public/nammuoik.jpeg";
+import { namtramk } from "../public/namtramk.jpeg";
+
 import "./App.css";
 
 function App() {
@@ -35,19 +43,19 @@ function App() {
   const getImageUrl = (moneyValue) => {
     switch (moneyValue) {
       case 5000:
-        return "https://upload.wikimedia.org/wikipedia/vi/7/7c/%C4%90%E1%BB%93ng_b%E1%BA%A1c_5000_%C4%91%E1%BB%93ng.jpg";
+        return namk;
       case 10000:
-        return "https://static.wixstatic.com/media/6e3cc1_88046490f5734e9191bf0108564cf782~mv2.jpg/v1/fill/w_560,h_274,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6e3cc1_88046490f5734e9191bf0108564cf782~mv2.jpg";
+        return muoik;
       case 20000:
-        return "https://en.numista.com/catalogue/photos/viet_nam/63fdf045478aa8.79782893-original.jpg";
+        return haimuoik;
       case 50000:
-        return "https://www.theworldnote.com/uploads/allimg/2004/1_200428100050_1.jpg";
+        return nammuoik;
       case 100000:
-        return "https://en.numista.com/catalogue/photos/viet_nam/64f38ae1a90dc4.91546703-original.jpg";
+        return mottramk;
       case 200000:
-        return "https://www.theworldnote.com/uploads/allimg/2004/1_200428100853_1.jpg";
+        return haitramk;
       case 500000:
-        return "https://en.numista.com/catalogue/photos/viet_nam/600ec24b7720e7.92083904-original.jpg";
+        return namtramk;
       default:
         return "";
     }
