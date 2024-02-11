@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/random-lucky-money/static/css/main.39425ffd.css",
+    "main.js": "/random-lucky-money/static/js/main.cc573c84.js",
+    "static/js/592.7f72a991.chunk.js": "/random-lucky-money/static/js/592.7f72a991.chunk.js",
+    "index.html": "/random-lucky-money/index.html",
+    "main.39425ffd.css.map": "/random-lucky-money/static/css/main.39425ffd.css.map",
+    "main.cc573c84.js.map": "/random-lucky-money/static/js/main.cc573c84.js.map",
+    "592.7f72a991.chunk.js.map": "/random-lucky-money/static/js/592.7f72a991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39425ffd.css",
+    "static/js/main.cc573c84.js"
+  ]
+}
